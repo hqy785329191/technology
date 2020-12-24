@@ -8,9 +8,9 @@ spring:
   datasource:
     druid:
       base:
-        url: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+        url: jdbc:mysql://localhost:3306/shopmanager?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
         username: root
-        password: root
+        password: 123456
         driver-class-name: com.mysql.cj.jdbc.Driver
       back-db:
         url: jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
