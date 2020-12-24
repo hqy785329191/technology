@@ -4,13 +4,19 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+import java.io.Serializable;
 
 /**
  * @author Mr.joey
  */
+@ApiModel(value="TUser",description = "t_user 表对应")
 @TableName("t_user")
-public class TUser {
+public class TUser implements Serializable {
 
+    @ApiModelProperty(value = "主键",required = true,notes = "必填")
     @TableId(value = "ID", type = IdType.AUTO)
     private Integer id;
 
