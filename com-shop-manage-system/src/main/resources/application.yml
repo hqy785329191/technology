@@ -13,3 +13,4 @@ UploadOrDownload:
   ftp-userName: root
   ftp-pwd: root
   ftp-path: /app/shop/
+  resource-fileName: aa.jpg

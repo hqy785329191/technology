@@ -15,3 +15,8 @@ service     ：业务service
 support     ：项目响应支持
 util        ：项目工具包
 vo          ：项目自定义响应对象
+
+
+
+swagger 地址：
+http://localhost:9999/shop/swagger-ui.html#/
